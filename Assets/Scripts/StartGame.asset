@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: StartGame
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":301.0,"y":223.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"0d6c970a-8847-486b-ab7e-97ee59a0e3f1","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"658320f7-7cdc-4925-8dea-b0b14e569e55","$version":"A","$type":"Unity.VisualScripting.Update"},{"coroutine":false,"defaultValues":{"name":{"$content":"play","$type":"System.String"}},"position":{"x":-148.0,"y":196.0},"guid":"3b1830f4-5b98-43c1-ac4b-1e443d45f9fd","$version":"A","$type":"Unity.VisualScripting.BoltUnityEvent","$id":"13"},{"chainable":false,"parameterNames":["sceneName"],"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"StarterScene","$type":"System.String"}},"position":{"x":258.0,"y":253.0},"guid":"a2a7c486-e4f7-4cfa-a30a-bbdcc342ead8","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"15"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"1e118102-1951-40c4-ae3e-ecba24721d3c","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
